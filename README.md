@@ -1,6 +1,6 @@
 # SQAT06 - Assignment-1
-Go to "github.com"to registration a new a/c
-Download git
+1. Go to "github.com" to register a new account
+2. Download git
 Check git --version on Commad Prompt 
 Search IzzatBamieh then select user to find IzzatBamieh
 Click SQAT06 
