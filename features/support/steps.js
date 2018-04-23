@@ -6,7 +6,7 @@ const should = chai.should()
 
 
 Given('I go to duck duck go', function(callback) {
-  this.browser
+  browser
     .init()
     .url('https://duckduckgo.com/').then(function() {
       callback();
@@ -14,7 +14,7 @@ Given('I go to duck duck go', function(callback) {
 })
 
 When('I search for WebdriverIO', function(callback) {
-  this.browser
+  browser
     .setValue('#search_form_input_homepage', 'WebdriverIO')
     .click('#search_button_homepage').then(function(){
       callback();
