@@ -1,6 +1,10 @@
 const { Given, When, Then } = require('cucumber')
 const chai = require('chai')
 const should = chai.should()
+const webdriverio = require('webdriverioio');
+const option = { desireCapabilities:{ browsername: 'chrome' }};
+
+const client = webdriverio.remote(option);
 
 "use strict";
 
