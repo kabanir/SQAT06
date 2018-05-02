@@ -36,10 +36,10 @@ client
           console.log(err)
       })
          
-    //   .addValue('.register-page__specialties-other-list','Genetics')
-    //   .catch(function(err){
-    //       console.log(err)
-    //   })
+      .addValue('.register-page__specialties-other-list','Genetics')
+      .catch(function(err){
+          console.log(err)
+      })
       .click('.register-page__terms-checkbox')
       .catch(function(err){
         console.log(err)
@@ -49,5 +49,7 @@ client
         console.log(err)
       })
       .getText(".invalid-field").then((element) => {
-          element.should.equal('Pleasedsfsdf select a valid specialty')
+          element.should.equal('Please select a valid specialty')
+    
       })
+      .end()

@@ -27,8 +27,8 @@ When('I search for WebdriverIO', function(callback) {
 
 Then('I should see the search results', function(callback) {
   this.browser
-    .getTitle().then(function(result){
-        result.should.equal("WebdriverIO at DuckDuckGo");
+    .getTitle().then(function(actualResult){
+        actualResult.should.equal("WebdriverIO at DuckDuckGo");
         callback();
   }).catch(function(error){
     callback(error);

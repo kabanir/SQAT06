@@ -5,5 +5,12 @@ Feature: Simple maths
 
   Scenario: easy maths
     Given I go to duck duck go
-    When  I search for WebdriverIO
-    Then  I should see the search results
+    When I search for WebdriverIO
+    Then I should see the search results
+    Given I go to figure1
+  
+
+    
+    
+    
+
