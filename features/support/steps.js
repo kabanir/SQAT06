@@ -1,10 +1,6 @@
 const { Given, When, Then } = require('cucumber')
 const chai = require('chai')
 const should = chai.should()
-const WebdriverIO = require('webdriverIO');
-const options = { desiredCapabilities: { browserName: 'chrome' } };
-const client = webdriverio.remote(options);
-
 const username_constant = Math.random().toString(36).substr(7)
 const password = "poopduck"
 

@@ -5,8 +5,9 @@ Feature: Simple maths
 
 Scenario: easy maths
       Given I go figure1 registration page
-      When I enter to create an account
+      When I put valid credentials on sign up page fields
       Then I should see the result for sign in
+
 
 
  

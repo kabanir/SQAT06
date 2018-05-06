@@ -4,13 +4,16 @@ GUIDELINE FOR AUTOMATION TESTING:
 To test web application called, “FIGURE1” to verify this application for registration page by using automation test tool called “SELENIUM” 
 Registration form will be available at URL:https://app.figure1.com/account/register'
 Following are the tools going to be used for testing and also download on your local computer:
-1) Visual Studio Code: Visual Studio Code - Open Source. VS Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. Code provides comprehensive editing and debugging support, an extensibility model, and lightweight integration with existing tools.
+1) Visual Studio Code: Visual Studio Code - Open Source. VS Code is a new type of tool that           combines the simplicity of a code editor with what developers need for their core                  edit-build-debug cycle. Code provides comprehensive editing and debugging support, an extensibility model, and lightweight integration with existing tools.
 Download and install on your computer.
 Open folder under SQAT06 file, that have all packages installed (node_modules, mobile_basic.js, Readme.md, web_basic.js)
 To run the JavaScript at command prompt enter: node web_basic.js, to make sure the codes are running ok.
+
 2) Node.JS: Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code server-side.
-Download version-7.8.0, to confirm if it’s installed successfully, go to command prompt and enter- (node –v) 
+Download version-7.8.0, to confirm if it’s installed successfully, go to command prompt and enter- (node –v)
+
 3) NPM: installed npm at command prompt under SQAT06 drive for the first time.
+
 4) Selenium Standalone server to download: at url: https://www.npmjs.com/package/selenium-server-standalone
 Selenium standalone as npm package. The version of npm package matches packaged selenium version.
 
