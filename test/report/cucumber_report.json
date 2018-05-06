@@ -1,0 +1,132 @@
+[
+  {
+    "description": "  In order to do maths\n  As a developer\n  I want to increment variables",
+    "keyword": "Feature",
+    "name": "Simple maths",
+    "line": 1,
+    "id": "simple-maths",
+    "tags": [],
+    "uri": "features\\scenario.feature",
+    "elements": [
+      {
+        "id": "simple-maths;easy-maths",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "easy maths",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I go figure1 registration page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter to create an account",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the result for sign in",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Kabani\\SQAT06\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  In order to do maths\n  As a developer\n  I want to increment variables",
+    "keyword": "Feature",
+    "name": "Simple maths",
+    "line": 1,
+    "id": "simple-maths",
+    "tags": [],
+    "uri": "features\\scenario1.feature",
+    "elements": [
+      {
+        "id": "simple-maths;search-for-izzy",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Search for Izzy",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I go to duck duck go",
+            "match": {
+              "location": "Kabani\\SQAT06\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search for \"Izzy\"",
+            "match": {
+              "location": "Kabani\\SQAT06\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the search title \"Izzy\"",
+            "match": {
+              "location": "Kabani\\SQAT06\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Kabani\\SQAT06\\node_modules\\cucumber\\lib\\support_code_library_builder\\define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 442000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
